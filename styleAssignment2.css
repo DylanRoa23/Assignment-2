@@ -1,0 +1,284 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #ffffff;
+  height: 1236px;
+}
+
+#logo {
+  position: absolute;
+  left: 112px;
+  top: 23.5px;
+}
+
+#buttons {
+  position: absolute;
+  top: 28px;
+  left: 529px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  word-spacing: 32px;
+}
+
+.purple_button {
+  width: 165px;
+  height: 44px;
+  position: absolute;
+  left: 1163px;
+  top: 18px;
+  background: #7f56d9;
+  border: 1px solid #7f56d9;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.dashboard {
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.center {
+  position: relative;
+  top: 80px;
+  background-color: #f9fafb;
+  height: 860px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: #101828;
+
+  position: relative;
+  top: 96px;
+}
+
+#main_text {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #667085;
+
+  position: relative;
+  top: 114px;
+}
+
+#laptop {
+  position: relative;
+  top: 197.89px;
+
+  margin-left: 343.24px;
+  margin-right: 343.08px;
+  width: 50%;
+}
+
+#footer {
+  text-align: center;
+  position: relative;
+  top: 194.11px;
+  color: #667085;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.logos {
+  position: absolute;
+  top: 1092px;
+  left: 112px;
+  width: 1216px;
+  height: 48px;
+}
+
+#logo2 {
+  position: relative;
+  left: 193.74px;
+}
+
+#logo3 {
+  position: relative;
+  left: 426.49px;
+}
+
+#logo4 {
+  position: relative;
+  left: 658.24px;
+}
+
+#logo5 {
+  position: relative;
+  left: 866.99px;
+}
+
+.logos_text {
+  position: relative;
+  bottom: 44px;
+  left: 58.1px;
+  font-style: normal;
+  font-family: "Inter";
+  font-size: 28px;
+  font-weight: 500;
+  color: #101828;
+  width: 50px;
+}
+
+#text2 {
+  position: relative;
+  bottom: 78px;
+  left: 280px;
+}
+
+#text3 {
+  position: relative;
+  bottom: 112px;
+  left: 560px;
+}
+
+#text4 {
+  position: relative;
+  bottom: 146px;
+  left: 840px;
+}
+
+#text5 {
+  position: relative;
+  bottom: 180px;
+  left: 1100px;
+}
+
+#circle {
+  position: relative;
+  top: 256px;
+  left: 1344px;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  background-color: #7f56d9;
+}
+#bubble {
+  position: relative;
+  left: 19px;
+  top: 19px;
+}
+
+@media (max-width: 1443px) {
+  #logo {
+    position: relative;
+    left: 7%;
+  }
+
+  #buttons {
+    left: 35%;
+    word-spacing: 10px;
+  }
+
+  .purple_button {
+    position: relative;
+    top: 0%;
+    left: 82%;
+  }
+
+  #laptop {
+    position: relative;
+    margin: 0;
+    width: 50%;
+    left: 23%;
+  }
+
+  .logos {
+    position: relative;
+    flex-direction: column;
+    justify-content: start;
+    top: 200px;
+    left: 7%;
+  }
+
+  .spacing {
+    position: relative;
+    left: 10%;
+  }
+
+  #circle {
+    position: relative;
+    left: 95%;
+  }
+}
+
+@media (max-width: 800px) {
+  #logo {
+    position: relative;
+    left: 5%;
+  }
+
+  #buttons {
+    left: 27%;
+    word-spacing: auto;
+  }
+
+  .purple_button {
+    position: relative;
+    left: 75%;
+  }
+
+  #laptop {
+    position: relative;
+    margin: 0;
+    width: 50%;
+    left: 0;
+  }
+
+  #logo4 {
+    position: relative;
+    left: 9%;
+    top: 55px;
+  }
+
+  #logo5 {
+    position: relative;
+    left: 5%;
+    top: 110px;
+  }
+
+  #text4 {
+    position: relative;
+    left: 25%;
+    bottom: 90px;
+  }
+
+  #text5 {
+    position: relative;
+    left: 25%;
+    bottom: 69px;
+  }
+
+  #circle {
+    position: relative;
+    left: 90%;
+  }
+}
